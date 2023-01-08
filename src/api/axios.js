@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "http://localhost:8500" || "https://lucent-backend-deployed.onrender.com";
+const BASE_URL = "https://lucent-backend-deployed.onrender.com";
 
 export default axios.create({
   baseURL: BASE_URL,
